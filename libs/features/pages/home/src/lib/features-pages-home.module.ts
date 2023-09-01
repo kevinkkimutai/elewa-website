@@ -4,10 +4,11 @@ import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './main/home/home-page.component';
 
 import { HomeRoutingModule } from './home.routing';
+import { EducationSectionComponent } from './components/education-section/education-section.component';
 
 @NgModule({
   imports: [CommonModule, HomeRoutingModule],
-  declarations: [HomePageComponent],
+  declarations: [HomePageComponent, EducationSectionComponent],
   exports: [HomePageComponent],
 })
 export class FeaturesPagesHomeModule {}
